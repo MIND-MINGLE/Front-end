@@ -13,7 +13,6 @@ const Header: React.FC = () => {
   const [showNotification, setShowNotification] = useState(false);
   const [showChatList, setShowChatList] = useState(false);
   const [showSavedOffices, setShowSavedOffices] = useState(false);
-
   const transactionRef = useRef<HTMLDivElement>(null);
   const notificationRef = useRef<HTMLDivElement>(null);
   const chatListRef = useRef<HTMLDivElement>(null);
