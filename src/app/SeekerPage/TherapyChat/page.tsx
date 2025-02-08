@@ -19,6 +19,7 @@ import React from "react";
 import RightComponents from "./component";
 
 const TherapyChatPage: React.FC = () => {
+  
   return (
     <Box
       width="100%"

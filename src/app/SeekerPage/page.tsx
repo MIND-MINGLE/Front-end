@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import { Box, Divider, Typography } from '@mui/material';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import NavigationRail from './NavBar';
 import Footer from '../LandingPage/Components/Footer/Footer';
 import CopyrightFooter from '../LandingPage/Components/CopyrightFooter/CopyrightFooter';
@@ -11,12 +11,15 @@ import TherapistConnector from './Connector/Connector';
 import Link from 'next/link';
 import { AnimatePresence, motion } from "framer-motion";
 
+
 const SeekerPage = (): JSX.Element => {
     const [isClicked, setIsClicked] = useState(false);
 
     const handleClick = () => {
         setIsClicked(true);
     };
+   
+    
 
     return (
         <Box
