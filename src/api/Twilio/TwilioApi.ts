@@ -3,5 +3,5 @@ interface VideoCallProps{
     roomNum: string;
 }
 export default function VideoCall({ userId, roomNum }: VideoCallProps) {
-
+    return null
 }

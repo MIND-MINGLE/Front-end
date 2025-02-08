@@ -1,6 +1,6 @@
-import React from 'react'
+// import React from 'react'
 
-const baseURL = "www"
+// const baseURL = "www"
 
 function GetAllAccount() {
 
