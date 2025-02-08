@@ -1,6 +1,7 @@
-import React from 'react'
-
-
-export default function VideoCall({ userId, roomNum }) {
+interface VideoCallProps{
+    userId: string;
+    roomNum: string;
+}
+export default function VideoCall({ userId, roomNum }: VideoCallProps) {
 
 }
